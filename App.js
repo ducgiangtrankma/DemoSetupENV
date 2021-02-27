@@ -4,7 +4,7 @@ import Config from 'react-native-config';
 export default function App(props) {
   return (
     <SafeAreaView style={styles.container}>
-      <Text>Call Api</Text>
+      <Text>Call Api:</Text>
       <Text>{Config.API_URL}</Text>
     </SafeAreaView>
   );

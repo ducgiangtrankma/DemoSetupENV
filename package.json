@@ -7,6 +7,9 @@
     "ios-run-debug-develop": "react-native run-ios --scheme DemoENVDev --configuration DebugDev",
     "ios-run-debug-staging" : "react-native run-ios --scheme DemoENVStaging --configuration DebugDev",
     "ios-run-debug-production" : "react-native run-ios --scheme DemoENVProd --configuration DebugDev",
+    "android-run-debug-develop": "react-native run-android --no-jetifier --variant=devDebug --appId 'com.demoenv.app.dev'",
+    "android-run-debug-staging": "react-native run-android --no-jetifier --variant=stagingDebug --appId 'com.demoenv.app.stg'",
+    "android-run-debug-product": "react-native run-android --no-jetifier --variant=productDebug --appId 'com.demoenv.app.prod'",
     "start": "react-native start",
     "test": "jest",
     "lint": "eslint ."
