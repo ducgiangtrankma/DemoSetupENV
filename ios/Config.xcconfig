@@ -1,0 +1,10 @@
+//
+//  Config.xcconfig
+//  DemoENV
+//
+//  Created by Duc Giang Tran on 2/28/21.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+#include? "tmp.xcconfig"
